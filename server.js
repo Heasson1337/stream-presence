@@ -47,28 +47,4 @@ client.on("ready", () => {
     .catch(console.error);
 });
 
-client.login("Njg5OTAzNTQ5MTYwNzUxMTM3.XnP0Yw.qNolfGu2TOxYzcPy_ISYQMMi7IY");
-
-client.on("ready", () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-  console.log("Streamstatus by Heasson1337");
-
-  client.user
-    .setActivity(
-      `🇩​🇪​🇻​🇪​🇱​🇴​🇵​🇵​🇪​🇩​ 🇧​🇾​ 🇭​🇪​🇦​🇸​🇸​🇴​🇳​`,
-      {
-        type: "STREAMING",
-        url: "https://www.twitch.tv/heasson1337"
-      }
-    )
-    .then(presence =>
-      console.log(
-        `Your Status has been set to  ${
-          presence.game ? presence.game.none : "none"
-        }`
-      )
-    )
-    .catch(console.error);
-});
-
-client.login("NTAzNjcwODI2NDk5OTY0OTI5.XmFy8g.wp8LAkiKruDjfn41V_gXVPfduoI");
+client.login("Njg5OTAzNTQ5MTYwNzUxMTM3.XnP84w.r6gLYFeq_kr_KWRT7D99XqZieeA");
